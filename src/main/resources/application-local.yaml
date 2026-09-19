@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ddd_db?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: ddd_user
+    password: ddd_pass
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+member:
+  base-url: http://localhost:8080
